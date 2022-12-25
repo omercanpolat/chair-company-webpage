@@ -257,10 +257,46 @@ footer p {
   #main-header h1 {
     margin: 3rem 0 1rem 0;
   }
+  .btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(159, 118, 87);
+    font-weight: 500;
+  }
+  .btn:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  #main-header h2 {
+    margin: 2rem;
+  }
 }
 @media screen and (max-width: 800px) {
   .gallery {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2,
+  p.large {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(159, 118, 87);
+    font-weight: 500;
+  }
+  .btn:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  #main-header h2 {
+    margin: 2rem;
   }
 }
